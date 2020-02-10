@@ -1,4 +1,4 @@
-export default class Question {
+export default class Clue {
     constructor(data) {
         this.description = data.description
         this.cost = data.cost

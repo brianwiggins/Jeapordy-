@@ -1,17 +1,15 @@
-import Value from "./Models/Clue.js/index.js";
+import Clue from "./Models/Clue.js";
 
 let _state = {
-  activeValue: new Value({ title: "Value" }),
-  /** @type {Value[]} */
-  values: []
+  /** @type {Clue[]} */
+  Clues: []
 };
 
 /** Collection of listeners to be called based on keyed state changes
  * @type {{[x:string]: function[]}}
  */
 let _listeners = {
-  activeValue: [],
-  values: []
+  Clues: [],
 };
 
 //NOTE You should not need to change the code from this point down
