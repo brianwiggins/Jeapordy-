@@ -3,12 +3,10 @@ export default class Clue {
         this.description = data.description
         this.cost = data.cost
         this.category = data.category
-
+        this.answer = data.answer
     }
 
     get Template() {
-        return `<div className="col-12">
-        
-        </div>`
+        return `<li>${this.description}</li>`
     }
 }
