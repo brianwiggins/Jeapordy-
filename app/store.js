@@ -1,4 +1,4 @@
-import Value from "./Models/Value.js";
+import Value from "./Models/Clue.js/index.js";
 
 let _state = {
   activeValue: new Value({ title: "Value" }),
